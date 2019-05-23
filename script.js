@@ -132,13 +132,21 @@ if(scorejhon > scoreMike && scorejhon > scoreMarry){
 
 //FUNCTION////////////////
 
+function Calculateage (BirthDayYear){
+    var age = 2019-BirthDayYear;
+    return age;
+}
+
+var agejhon = Calculateage(1996);
+console.log(agejhon);
+
 
 //STATEMENT AND EXPRESSION/////////////
 
 //ARRAY////////////
-var name = ['as','fd','fdf']
+/* var name = ['as','fd','fdf']
 console.log(name);
-
+ */
 
 
 
