@@ -193,7 +193,55 @@ if(jhon.indexOf ('teacher') === -1){
     console.log('jhon is not a techaer');
 } */
 
+//OBJECT AND PROPERTYS/////////////
+
+/* var jhon={
+    name:'jhon',
+    lastname:'smith',
+    BirthDayYear:26,
+    job:'teacher',
+    isMarid:false,
+};
+
+console.log(jhon.lastname);
+console.log(jhon['lastname']);
+
+var xyz ='job';
+console.log(jhon[xyz]);
+
+jhon.lastname='bill';
+jhon['job']='programer';
+
+console.log(jhon);
+
+var jhone= new Object();
+jhone.nam='jhonee';
+jhone.lastname='smith';
+jhone['BirthDayYear']=1960;
+jhone['job']='programer';
+jhone['isMarid']= true;
+
+console.log(jhone); */
+
 //
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
