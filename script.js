@@ -223,9 +223,35 @@ jhone['isMarid']= true;
 
 console.log(jhone); */
 
-//
+//OBJEC AND METHOD////////////
 
+/* var jhon ={
+    name:'jhone',
+    lastname:'mark',
+    BirthDayYear:1996,
+    job:'teacher',
+    family:['mark','bob','jems'],
+    isMarid:true,
+    Calculateage :function(){
+    this.age = 2019-this.BirthDayYear;
+}
+};
 
+jhon.Calculateage();
+console.log(jhon);
+
+var mark={
+    BirthDayYear:1998,
+    Calculateage :function(){
+        this.age=2016-this.BirthDayYear;
+    }
+};
+
+mark.Calculateage();
+console.log(mark);
+ */
+
+ //
 
 
 
