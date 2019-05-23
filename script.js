@@ -136,7 +136,8 @@ if(scorejhon > scoreMike && scorejhon > scoreMarry){
 //STATEMENT AND EXPRESSION/////////////
 
 //ARRAY////////////
-
+var name = ['as','fd','fdf']
+console.log(name);
 
 
 
