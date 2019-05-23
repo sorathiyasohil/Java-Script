@@ -132,7 +132,7 @@ if(scorejhon > scoreMike && scorejhon > scoreMarry){
 
 //FUNCTION////////////////
 
-function Calculateage (BirthDayYear){
+/* function Calculateage (BirthDayYear){
     var age = 2019-BirthDayYear;
     return age;
 }
@@ -146,15 +146,69 @@ function  ageofretairment (name , Year){
     console.log(name+ageretaire)
 }
 
-ageofretairment('jhon', '1995')
+ageofretairment('jhon', '1995') */
 
 
 //STATEMENT AND EXPRESSION/////////////
 
+/* function sumfun(par){
+    //code
+}
+
+var sumfun = function(par){
+    //code
+}
+
+//Expression
+
+ 3+4;
+var x=3;
+
+//statement
+
+if(x===5){
+    //do somthing
+} */
+
+
 //ARRAY////////////
-/* var name = ['as','fd','fdf']
-console.log(name);
- */
+
+
+/* var names = ['jhon','Mark','Marray'];    
+ 
+
+console.log(names[5]);
+names[1] = 'Ben';
+console.log(names);
+
+var jhon = ['jhones','dancer',1996,true]
+
+jhon.push('blue');
+jhon.unshift('Mr.');
+jhon.pop();
+jhon.shift();
+console.log(jhon);
+
+if(jhon.indexOf ('teacher') === -1){
+    console.log('jhon is not a techaer');
+} */
+
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
