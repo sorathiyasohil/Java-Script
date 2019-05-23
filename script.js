@@ -140,6 +140,14 @@ function Calculateage (BirthDayYear){
 var agejhon = Calculateage(1996);
 console.log(agejhon);
 
+function  ageofretairment (name , Year){
+    var age = Calculateage(Year);
+    var ageretaire = 65 - age;
+    console.log(name+ageretaire)
+}
+
+ageofretairment('jhon', '1995')
+
 
 //STATEMENT AND EXPRESSION/////////////
 
