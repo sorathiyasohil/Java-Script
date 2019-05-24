@@ -62,38 +62,38 @@ if(23==23){
  */
 
 
- //boolen logic and switch//////
+//boolen logic and switch//////
 
- /* var age=35;
+/* var age=35;
 
- if(age===20){
-     console.log('jhon is young')
- }else if (age > 20 && age < 30) {
-     console.log('jhon is middle')
- } else {
-     console.log('jhon is man');
- }
+if(age===20){
+    console.log('jhon is young')
+}else if (age > 20 && age < 30) {
+    console.log('jhon is middle')
+} else {
+    console.log('jhon is man');
+}
 
 
- var job ='teacher';
+var job ='teacher';
 
- job=prompt('enter somthing to chhose')
+job=prompt('enter somthing to chhose')
 
- switch (job)
- {
-    case 'teacher' :
-        console.log('jhon techaing');
-    break;
-    case 'dance' :
-        console.log('jhon teching Dance');
-        break;
-    case 'driver':
-        console.log('jhon driving')
-        break;
-    default:
-    console.log('somthing else..');
-    
- } */
+switch (job)
+{
+   case 'teacher' :
+       console.log('jhon techaing');
+   break;
+   case 'dance' :
+       console.log('jhon teching Dance');
+       break;
+   case 'driver':
+       console.log('jhon driving')
+       break;
+   default:
+   console.log('somthing else..');
+   
+} */
 
 
 //CODECHALLANGE///////////////////
@@ -251,74 +251,57 @@ mark.Calculateage();
 console.log(mark);
  */
 
- //
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//LOOPS AND ITREATION/////
+/* var number = 1;
+for (var i = 0; i < 15; i++) {
+    if (i === 5) {
+        number = 1;
+    }
+    console.log(number);
+    number++;
+}
+
+
+
+
+var add = ['jhon', 'rock', 'mark', 'marray']
+
+i = 0;
+while (i < add.length) {
+    console.log(add[i]);
+    i++;
+} */
+
+//CODE CHALLANGE//////////////
+
+function printFullAge(years) {
+    // 2
+    ages = [];
+    fullages = [];
+
+    // 3.
+    for (var i = 0; i < years.length; i++) {
+        ages[i] = 2016 - years[i];
+        console.log(ages[i]);
+    }
+    // 4.
+    for (var i = 0; i < ages.length; i++) {
+        if (ages[i] >= 18) {
+            console.log('person is ' + ages[i] + 'is olders');
+            fullages.push(true);
+        } else {
+            console.log('person is' + ages[i] + 'is not full ages');
+            fullages.push(false);
+        }
+    }
+    return fullages;
+}
+
+// 1.
+var years1 = [1965, 2008, 1992];
+var years2 = [1990, 1978, 1999, 1948];
+
+var full_1 = printFullAge(years1);
+console.log(full_1)
+var full_2 = printFullAge(years2);
+console.log(full_1)
